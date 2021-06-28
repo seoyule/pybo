@@ -8,6 +8,7 @@ def index(request):
     """
     파이보 목록 출력
     """
+    3/0 #강제로 오류 발생시키기
     # 입력 파라미터
     page = request.GET.get('page', '1')
     kw = request.GET.get('kw', '')
