@@ -186,7 +186,7 @@ LOGGING = {
             'propagate': False,
         },
         'pybo':{
-            'handlers': ['console', 'file']
+            'handlers': ['console', 'file'],
             'level': 'INFO',
         },
     }
