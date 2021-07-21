@@ -7,6 +7,6 @@ class UserForm(UserCreationForm): #폼
 
     class Meta():
         model = User     #모델
-        fields = ['username','email']
+        fields = ['username', 'email']
 
 

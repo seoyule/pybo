@@ -1,10 +1,11 @@
 from django import forms
 from .models import Question, Answer, Comment
 
+
 class QuestionForm(forms.ModelForm): #폼
     class Meta:
         model = Question # 모델
-        fields = ['subject','content']
+        fields = ['subject', 'content']
 
         #
         # widgets = {
